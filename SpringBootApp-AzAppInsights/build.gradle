@@ -28,5 +28,7 @@ dependencies {
 	
 	compile group: 'org.springframework.boot', name: 'spring-boot-starter-web'
 	
+	compile group: 'com.microsoft.azure', name: 'applicationinsights-logging-logback', version: '1.+'
+	
     testCompile 'junit:junit:4.12'
 }
