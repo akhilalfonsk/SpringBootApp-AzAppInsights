@@ -6,8 +6,6 @@
  * user guide available at https://docs.gradle.org/3.5/userguide/tutorial_java_projects.html
  */
 
-
-// Apply the java plugin to add support for Java
 // Apply the java plugin to add support for Java
 plugins {
     id 'org.springframework.boot' version '1.5.8.RELEASE'
@@ -28,15 +26,14 @@ dependencies {
 	
 	compile group: 'org.springframework.boot', name: 'spring-boot-starter-web'
 	
-	compile group: 'com.microsoft.azure', name: 'applicationinsights-logging-logback', version: '1.0.10'
+	// https://mvnrepository.com/artifact/com.microsoft.azure/applicationinsights-logging-logback
+	compile group: 'com.microsoft.azure', name: 'applicationinsights-logging-logback', version: '1.0.+'
 	
 	// https://mvnrepository.com/artifact/com.microsoft.azure/applicationinsights-core
-	compile group: 'com.microsoft.azure', name: 'applicationinsights-core', version: '1.0.10'
+	compile group: 'com.microsoft.azure', name: 'applicationinsights-core', version: '1.0.+'
 	
 	// https://mvnrepository.com/artifact/com.microsoft.azure/applicationinsights-web
-	compile group: 'com.microsoft.azure', name: 'applicationinsights-web', version: '1.0.10'
-	
-	
+	compile group: 'com.microsoft.azure', name: 'applicationinsights-web', version: '1.0.+'
 	
     testCompile 'junit:junit:4.12'
 }
