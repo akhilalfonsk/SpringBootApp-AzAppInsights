@@ -27,13 +27,13 @@ dependencies {
 	compile group: 'org.springframework.boot', name: 'spring-boot-starter-web'
 	
 	// https://mvnrepository.com/artifact/com.microsoft.azure/applicationinsights-logging-logback
-	compile group: 'com.microsoft.azure', name: 'applicationinsights-logging-logback', version: '1.0.+'
+	compile group: 'com.microsoft.azure', name: 'applicationinsights-logging-logback', version: '1.0.9'
 	
 	// https://mvnrepository.com/artifact/com.microsoft.azure/applicationinsights-core
-	compile group: 'com.microsoft.azure', name: 'applicationinsights-core', version: '1.0.+'
+	compile group: 'com.microsoft.azure', name: 'applicationinsights-core', version: '1.0.9'
 	
 	// https://mvnrepository.com/artifact/com.microsoft.azure/applicationinsights-web
-	compile group: 'com.microsoft.azure', name: 'applicationinsights-web', version: '1.0.+'
+	compile group: 'com.microsoft.azure', name: 'applicationinsights-web', version: '1.0.9'
 	
     testCompile 'junit:junit:4.12'
 }

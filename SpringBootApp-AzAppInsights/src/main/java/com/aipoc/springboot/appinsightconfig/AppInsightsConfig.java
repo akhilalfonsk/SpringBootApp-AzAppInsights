@@ -14,7 +14,7 @@ public class AppInsightsConfig {
 
     @Bean
     public String telemetryConfig() {
-        String telemetryKey ="9ea3c4a8-1323-47bd-a83a-810c61bd9b1b";
+        String telemetryKey ="347aabcf-2ee6-44dd-bf53-ec7ee139f3fb";
         if (telemetryKey != null) {
             TelemetryConfiguration.getActive().setInstrumentationKey(telemetryKey);
         }
